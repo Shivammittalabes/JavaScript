@@ -25,4 +25,33 @@ console.log(typeof "shivam");
 console.log(typeof age);
 
 console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof undefined); 
+
+// master plan => js object & browser web events
+
+/* 
+Primitive datatype {call by value} :
+7 types - string , number, boolean, null, undefined, symbol, bigint.
+
+Non primitive datatype {call by reference} :
+array, objects, functions
+ 
+*/ 
+
+const id = Symbol("123")
+const anotherId = Symbol("123")
+
+console.log( id === anotherId);
+
+const bigNumber = 98985454885n
+
+const heros = [ "shaktiman", "hanuman", "friends"];
+
+let myObj = {
+    name: "shivam",
+    age: 24,
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
