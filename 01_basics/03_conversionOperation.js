@@ -52,13 +52,6 @@ let negvalue = -value
 
 console.log(negvalue);
 
-// console.log(2+2);
-// console.log(2-2);
-// console.log(2*2);
-// console.log(2**3);
-// console.log(2/2);
-// console.log(2%3);
-
 
 let str1 = "HELLO"
 let str2 = " SHIVAM"
@@ -66,10 +59,10 @@ let str2 = " SHIVAM"
 let str3 = str1 + str2  // Concatination property
 console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 3);
-// console.log(1 + 2 + "3" + 4);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 3);
+console.log(1 + 2 + "3" + 4);
 
 console.log(+true); // messy code
 console.log(+"");
