@@ -5,7 +5,6 @@ var accountPassword = "706095"
 accountCity = "Jaipur"
 
 
-
 // accountId = 2  // not allowed
 
 accountEmail = "sm@gmail.com"
@@ -18,5 +17,4 @@ console.log(accountId);
 we should not use var because the issue of SCOPE
 */
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
-    
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
