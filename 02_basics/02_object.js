@@ -107,3 +107,17 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // property or key exist or not in the object or database
 console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "JavaScript",
+    price: 999,
+    course_instructor: "hitesh"
+}
+
+console.log(course.course_instructor);
+
+
+// DESTRUCTUREING:-
+const{course_instructor: teacher} = course  //  change key but have same value
+console.log(teacher);
